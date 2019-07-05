@@ -1,0 +1,212 @@
+/* Overwrites some CSS rules of uzh.css */
+
+/* Adapt basic styles from Grocery_CRUD: */
+body
+{
+	word-break: break-word;
+	font-family: Arial, Helvetica, FreeSans, sans-serif;
+	font-size: 14px;
+	/* color: #000000;
+	line-height: 1.5em; */
+	margin:0px 20px 0px 20px;
+	/* padding:0px; */
+	background-color:#e3e7ea;
+	/* background-color:#ffffff; */
+	/* 	height:100%; */
+}
+
+a
+{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+div.bodywidth
+{
+	width: 100%;
+	/* margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	min-height: 100%; */
+}
+
+div.bodywidthsmall
+{
+	width: 980px;
+	/* horizontally centred */
+	/* ----- */
+	margin-right: auto;
+	margin-left: auto;
+	/* ----- */
+	background-color: #FFFFFF;
+	min-height: 100%;
+}
+
+div.oliv_content
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div#olivlogo
+{
+	padding: 14px 17px 0 0;
+	height:80px;
+	width: 133px;
+	float: right;
+}
+
+div#uzhlogo
+{
+	padding: 14px 0 0 17px;
+	height:80px;
+	width: 255px;
+	float: left;
+}
+
+/* Embedded script on view 'login.php' */
+div#wayf_div
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+div#topline
+{
+	width: 100%;
+	/* background-color:#e3e7ea;
+	float: left; */
+	padding: 3px 0px 0px 20px; /* top, right, bottom, left */
+	font-size: 0.9em;
+	color: #7B828A;
+}
+
+div#headerarea h1 a
+{
+	/* color:#000;
+	text-decoration: none;
+	border-bottom:#0028a5 solid 4px;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0; */
+	font-size: 20px;
+}
+div#headerarea h1 a:hover
+{
+	/* color:#000;
+	text-decoration: none;
+	border-bottom:#0028a5 solid 4px; */
+	font-size: 20px;
+}
+
+p#logout
+{
+    float:right;
+    margin-right:40px;
+}
+
+div#primarnav 
+{
+    /* font-size: 1em;
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    line-height: 1.5em;
+    color: #000;
+    display:block;
+	margin-left: 14px;
+	margin-top: 4px;
+	min-height: 22px;
+	width: 966px;
+	float: left; */
+}
+
+/* Grocery CRUD report div */
+div.report-div
+{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+/* Grocery CRUD add button (views/list_template.php) */
+div.datatables-add-button
+{
+	margin-left: 20px !important;
+}
+
+/* Grocery CRUD buttonset ("Export" and "Druck") */
+div.DTTT_container.ui-buttonset.ui-buttonset-multi
+{
+	margin-right: 0px !important;
+}
+
+/* Grocery CRUD list view (views/list_template.php) */
+div.dataTablesContainer
+{
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+/* Grocery CRUD edit form (used when adding/editing a new/existing document/list) */
+div.ui-widget-content.ui-corner-all.datatables
+{
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+div.list-preview
+{
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+
+div.footertopnav
+{
+    /* text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    padding-top: 16px;
+    border-bottom: solid 1px #c8ced4;
+    clear: both; */
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div#footer
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div#footer a
+{
+    /* text-decoration: none;
+    color: #333; */
+	color: #7B828A;
+	font-size: 12px;
+}
+
+div#footer li
+{
+	color: #7B828A;
+	font-size: 12px;
+}
+
+div#footer li.separator
+{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+div#footer li.left
+{
+	margin-left: 20px;
+}

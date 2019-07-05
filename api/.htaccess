@@ -1,0 +1,27 @@
+# Protect the directory with http authentication:
+AuthType Basic
+AuthUserFile /path/to/.htpasswd
+AuthName "OLAT Access for Oliv"
+Require valid-user
+
+<Files ".htpasswd">
+     Order allow,deny
+     deny from all
+</Files>
+
+RewriteEngine On
+RewriteBase /urlpath/to/dir/of/this/.htaccess
+
+# Always use https://
+RewriteCond %{SERVER_PORT} =80
+RewriteRule ^(.*) https://full/url/path/to/dir/of/this/.htaccess/$1 [L]
+
+# Rewrite all requests that don't direct to a symbolig link, file or directory to index.php
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# End of file .htaccess
+# Location: ./olat/.htaccess
+
